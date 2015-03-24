@@ -58,8 +58,8 @@ The `&` method returns an array containing every element that the two arrays hav
 #=> [ 'a', 'b' ]
 
 
-[ 'a', 'm', 's', 'z' ] & [ 'a', 'b', 'c' ]
-#=> [ 'a', 'b' ]
+[ 'd', 'c', 'b', 'a' ] & [ 'a', 'c' ]
+#=> [ 'c', 'a' ]
 ```
 
 Take a look at the Ruby docs on `#&` [here](http://ruby-doc.org/core-2.2.0/Array.html#method-i-26). You'll be calling your version of this method `#ampersand`.
