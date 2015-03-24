@@ -1,7 +1,7 @@
 ---
 tags: logic, cs, monkey patching, todo, custom methods
 languages: ruby
-resources: 1
+resources: 3
 ---
 
 # Array Math
@@ -23,7 +23,7 @@ The `+` method adds one array to another array:
 [ "a", "b", "c" ] + [ "d", "e", "f" ]
 #=> [ "a", "b", "c", "d", "e", "f" ]
 ```
-Take a look at the Ruby docs on `#+` (http://ruby-doc.org/core-2.2.0/Array.html#method-i-2B). You'll be calling your version of this method `#plus`.
+Take a look at the Ruby docs on `#+` [here](http://ruby-doc.org/core-2.2.0/Array.html#method-i-2B). You'll be calling your version of this method `#plus`.
 
 ## `#*`
 
