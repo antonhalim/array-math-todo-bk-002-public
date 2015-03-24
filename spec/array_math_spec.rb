@@ -11,7 +11,8 @@ describe "Array Math" do
 
   describe "#plus" do
     it "doesn't use Ruby's plus method" do
-      expect_any_instance_of(Array).to_not receive(:+)
+      expect(a).to_not receive(:+)
+      expect(b).to_not receive(:+)
       a.plus(b)
     end
 
@@ -22,7 +23,6 @@ describe "Array Math" do
     end
 
     it "adds two arrays together" do
-      expect(a.plus(b)).to eq([ 4, 5, 6, 7, 8, 9 ])
       expect(b.plus(a)).to eq([ 7, 8, 9, 4, 5, 6 ])
       expect(evens.plus(odds)).to eq([ 2, 4,  6, 7, 9, 11 ])
       expect(odds.plus(evens)).to eq([ 7, 9, 11, 2, 4,  6 ])
