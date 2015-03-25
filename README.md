@@ -10,7 +10,7 @@ resources: 3
 
 ## Objective
 
-You will be building out Ruby's array `#*` and `#+` methods. Take a look at them below.
+You will be building out Ruby's Array `#*`, `#+`, and `#&` methods. To accomplish this you'll be monkey patching the array class. Read up on monkey patching [here](http://www.runtime-era.com/2012/12/reopen-and-modify-ruby-classes-monkey.html). Take a look at them below.
 
 ## `#+`
 
@@ -73,3 +73,4 @@ Do not call on Ruby's `#*`, `#+`, and ``#&` methods to accomplish this.
 * [Plus Sign Method](http://ruby-doc.org/core-2.2.0/Array.html#method-i-2B)
 * [Asterisk Method](http://ruby-doc.org/core-2.2.0/Array.html#method-i-2A)
 * [Ampersand Method](http://ruby-doc.org/core-2.2.0/Array.html#method-i-26)
+* [Monkey Patching](http://www.runtime-era.com/2012/12/reopen-and-modify-ruby-classes-monkey.html)
