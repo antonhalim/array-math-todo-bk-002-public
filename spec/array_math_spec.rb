@@ -32,7 +32,7 @@ describe "Array Math" do
   end
 
   describe "#asterisk" do
-    it "doesn't use Ruby's plus method" do
+    it "doesn't use Ruby's asterisk method" do
       expect_any_instance_of(Array).to_not receive(:*)
       a.asterisk(3)
     end
